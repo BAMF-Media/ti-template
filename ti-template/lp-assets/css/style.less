@@ -1,0 +1,2463 @@
+/*============    RESET    ===========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  .nuniR;
+  .darkT;
+
+  overflow-x: hidden;
+
+  ::selection {
+    .orangeBg;
+    .whiteT;
+
+  }
+  ::-moz-selection {
+    .orangeBg;
+    .whiteT;
+
+  }
+
+}
+
+ol, ul {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+a:hover,
+a:link,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/* hide horizontal scroll */
+//body {
+//  overflow-x: hidden;
+//}
+
+@import "global/globalStyle";
+
+.h1 {
+
+}
+
+.h2 {
+  .nuniB;
+  font-size: 50px;
+  line-height: 1.4em;
+  .darkT;
+  text-align: center;
+  margin-bottom: 15px;
+  animation-delay: 0.3s;
+
+}
+
+.h3 {
+
+}
+
+.h4 {
+
+}
+
+.h5 {
+
+}
+
+p {
+  .nuniR;
+  font-size: 21px;
+  line-height: 1.7em;
+  .darkT;
+
+}
+
+//email capture start
+.emailWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .email {
+    .nuniR;
+    font-size: 21px;
+    line-height: 1.3em;
+    .darkT;
+
+    height: 51px;
+    max-width: 330px;
+    width: 100%;
+    padding-left: 15px;
+    border: none;
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      .nuniR;
+      font-size: 21px;
+      line-height: 1.3em;
+      color: #8d8fa4;
+
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      .nuniR;
+      font-size: 21px;
+      line-height: 1.3em;
+      color: #8d8fa4;
+
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      .nuniR;
+      font-size: 21px;
+      line-height: 1.3em;
+      color: #8d8fa4;
+
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      .nuniR;
+      font-size: 21px;
+      line-height: 1.3em;
+      color: #8d8fa4;
+    }
+
+  }
+  .submitBtn {
+    .nuniB;
+    font-size: 21px;
+    line-height: 1.3em;
+    height: 51px;
+    max-width: 330px;
+    width: 100%;
+    border: none;
+    .orangeBg;
+    .whiteT;
+    .transition;
+
+    &:hover {
+      .transition;
+      background: #d58309;
+    }
+
+  }
+  input {
+    margin-bottom: 15px;
+  }
+
+}
+
+.referSubmitBtn {
+  .nuniB;
+  font-size: 21px;
+  line-height: 1.2em;
+  height: 51px;
+  .whiteT;
+  .blueBg;
+  max-width: 435px;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .transition;
+
+  &:hover {
+    .transition;
+    cursor: pointer;
+    .whiteT;
+    .blueBgHover;
+  }
+
+}
+
+// transition form start
+.email::-webkit-input-placeholder {
+  text-indent: 0px;
+  transition: text-indent 0.6s ease;
+}
+
+.email::-moz-placeholder {
+  text-indent: 0px;
+  transition: text-indent 0.6s ease;
+}
+
+.email:-moz-placeholder {
+  text-indent: 0px;
+  transition: text-indent 0.6s ease;
+}
+
+.email:-ms-input-placeholder {
+  text-indent: 0px;
+  transition: text-indent 0.6s ease;
+}
+
+.email:focus::-webkit-input-placeholder {
+  text-indent: 700px;
+  transition: text-indent 0.6s ease;
+}
+
+.email:focus::-moz-placeholder {
+  text-indent: 700px;
+  transition: text-indent 0.6s ease;
+}
+
+.email:focus:-moz-placeholder {
+  text-indent: 700px;
+  transition: text-indent 0.6s ease;
+}
+
+.email:focus:-ms-input-placeholder {
+  text-indent: 700px;
+  transition: text-indent 0.6s ease;
+}
+
+// transition form end
+
+//email capture end
+
+/*Header start*/
+
+/*Header End*/
+
+/*Main  Start*/
+
+
+
+
+/*Header start*/
+.headerLogoFluid {
+  position: fixed;
+  width: 100%;
+  .whiteBg;
+  box-shadow: 0 1px 2px -1px #000;
+  z-index: 99;
+
+  .logo {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      width: 116px;
+
+    }
+  }
+
+}
+
+
+
+
+.headerFluid {
+  background: url("../img/bg/hero-cta.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  //position: 100% 100%;
+  min-height: 650px;
+  padding-top: 130px;
+  padding-bottom: 50px;
+  .headerContainer {
+    .h2 {
+      padding-bottom: 10px;
+      text-align: left;
+    }
+    p {
+      font-size: 21px;
+      max-width: 405px;
+      width: 100%;
+    }
+    .refer-txt {
+      font-size: 17px;
+    }
+    //.descRefer{
+    //  margin-bottom: 20px;
+    //}
+
+  }
+}
+
+/*Header End*/
+
+.participation_form_refer{
+  float: left;
+}
+
+.headerFluidRefer{
+  padding-bottom: 0;
+}
+
+//giftGluid start
+.giftGluid {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  .giftContainer {
+    .h2 {
+      margin-bottom: 35px;
+    }
+    .indexH2{
+      margin-bottom: 55px;
+    }
+    text-align: center;
+    .inviteNumber {
+      margin-top: -55px;
+      margin-bottom: 40px;
+
+    }
+    .inviteWrap {
+      margin-bottom: 60px;
+      display: flex;
+    }
+    .invite {
+      border: 3px solid;
+      .borderlightBlue;
+      .nuniB;
+      .blueT;
+      font-size: 26px;
+      border-radius: 32px;
+      display: inline-block;
+      padding: 0 20px;
+      .whiteBg;
+
+    }
+    .imageWrap {
+      display: block;
+      margin: 0 auto;
+
+    }
+
+    .inviteInnner {
+      border: 3px solid;
+      .borderlightBlue;
+      padding: 30px 30px 20px 30px;
+      width: 28%;
+      margin: 0 auto;
+
+    }
+    .desc {
+      text-align: left;
+      margin-top: 30px;
+      .nuniR;
+      span {
+        display: block;
+      }
+    }
+    svg {
+      height: 110px;
+      width: auto;
+    }
+
+  }
+}
+
+//giftGluid end
+
+//probioticsFluid start
+.probioticsFluid {
+  background: url("../img/bg/Abstract-pills2.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 310px;
+  .lightBlueBg2;
+
+  .probioticsContianer {
+    .probioticsWrap {
+      display: flex;
+      justify-content: space-between;
+    }
+    .probioticsInnerLeft {
+      width: 40%;
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .abcWrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+    .abcTop {
+      .orangeDarkBg;
+      width: 100%;
+      max-width: 350px;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      p {
+        .whiteT;
+        .nuniB;
+
+      }
+
+    }
+    .for {
+      font-size: 18px;
+      margin-bottom: 10px;
+      .lightBlueT;
+      .nuniB;
+    }
+    .name {
+      border-bottom: 2px solid;
+      .orangeDarkBorder;
+      display: inline-block;
+      .nuniB;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      line-height: 1.2em;
+
+    }
+    .lactobac {
+
+    }
+    .personImg {
+      .borderRadious50;
+      width: 120px;
+      height: 120px;
+
+    }
+    .abcBottom {
+      padding: 15px;
+      border: 3px solid;
+      .orangeDarkBorder;
+      .whiteBg;
+      width: 100%;
+      max-width: 350px;
+      text-align: center;
+    }
+
+    .lactobac {
+      text-align: left;
+      padding-left: 50px;
+      position: relative;
+      li {
+        font-size: 17px;
+        line-height: 2em;
+
+        &:before {
+          content: '';
+          width: 35px;
+          height: 35px;
+          background: url(../img/icons/checkBoxDark.svg);
+          position: absolute;
+          left: 0;
+          margin-top: -5px;
+
+        }
+
+      }
+    }
+
+    .probioticsInnerRight {
+
+      width: 48%;
+      margin-top: 60px;
+      .h2 {
+        text-align: left;
+
+      }
+    }
+
+    .dietWrap {
+      margin-top: 90px;
+      display: flex;
+      justify-content: space-between;
+      .dietInnerLeft {
+        width: 40%;
+        .h2 {
+          text-align: left;
+          span {
+            display: block;
+          }
+        }
+
+      }
+      .dietInnerRight {
+        width: 48%;
+
+        //img{
+        //  display: block;
+        //  margin: 0 auto;
+        //}
+      }
+    }
+  }
+
+}
+
+//probioticsFluid end
+
+// threeStepsFluid start
+.threeStepsFluid {
+
+  .lightBlueBg;
+  .threeStepsContainer {
+    .wrapper {
+      margin-top: -220px;
+    }
+    .h2 {
+      margin-bottom: 70px;
+    }
+    .numberWrap {
+      margin-top: -55px;
+      margin-bottom: 30px;
+    }
+    .number {
+      border: 3px solid;
+      .borderlightBlue;
+      .lightBlueT;
+      font-size: 26px;
+      .borderRadious50;
+      padding: 0 20px;
+      background: #ffffff;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      .darkT;
+
+    }
+    .stepsWrap {
+      display: flex;
+      justify-content: space-between;
+    }
+    .innerStep {
+      border: 3px solid;
+      padding: 30px 30px 20px 30px;
+      .borderlightBlue;
+      .whiteBg;
+      margin-bottom: 60px;
+
+      width: 28%;
+    }
+    .imageWrap {
+      img {
+        display: block;
+
+        margin: 0 auto;
+      }
+
+    }
+    .desc {
+      margin-top: 30px;
+    }
+
+    .imageWrap {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    svg {
+      height: 110px;
+      width: auto;
+    }
+  }
+}
+
+// threeStepsFluid end
+
+//takeWordFluid start
+.takeWordFluid {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+
+  .takeWordContainer {
+    .h2 {
+      margin-bottom: 7px;
+    }
+    p {
+      .darkT;
+    }
+
+    .descTitle {
+      span {
+        .blueT;
+        .nuniB;
+      }
+    }
+
+    .commentsWrap {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+    }
+    .commentsCol {
+      width: 30%;
+      background: red;
+      padding: 20px;
+      .lightBlueBg2;
+    }
+    .avatar {
+      margin-top: -80px;
+      img {
+        .borderRadious50;
+        border: 3px solid rgb(39, 197, 225);
+        width: 120px;
+        height: 120px;
+      }
+    }
+    .name {
+      .nuniB;
+      font-size: 25px;
+
+    }
+    .desc {
+      font-size: 17px;
+      line-height: 1.9em;
+    }
+  }
+}
+
+//takeWordFluid end
+
+// statisticFluid start
+.statisticFluid {
+  background: url("../img/bg/Arrows.png") no-repeat center top -50px;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  //max-height: 769px;
+  height: 100%;
+  .lightBlueBg2;
+  .statisticContainer {
+    .buttonsWrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+    .probioticsBtn {
+      .nuniB;
+      font-size: 25px;
+      height: 51px;
+      max-width: 285px;
+      width: 100%;
+      border: none;
+      display: block;
+      text-align: center;
+      .whiteT;
+      margin-right: 50px;
+      animation-delay: 0.3s;
+
+      .darkBg;
+
+      &:hover {
+        .transition;
+        .blueBg;
+        .whiteT;
+      }
+
+    }
+    .healthBtn {
+      .nuniB;
+      animation-delay: 0.3s;
+
+      font-size: 25px;
+      height: 51px;
+      .whiteBg;
+      max-width: 285px;
+      width: 100%;
+      border: 3px solid rgb(62, 75, 89);
+      display: block;
+      text-align: center;
+      .darkT;
+      .transition;
+
+      &:hover {
+        .transition;
+        .blueBg;
+        .whiteT;
+        border: 3px solid rgb(39, 197, 225);
+
+      }
+
+    }
+
+    .tableWrap {
+      //max-width: 850px;
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+
+      table {
+        margin-bottom: 0;
+        th {
+          font-size: 18px;
+          .nuniB;
+          .darkT;
+          text-align: center;
+          border: none;
+        }
+        .probioticsTh {
+          border-bottom: 3px solid #f58a35;
+        }
+        .thryveTh {
+          font-size: 30px;
+          .nuniB;
+        }
+        tr {
+          height: 70px;
+          color: #135677;
+          width: 110px;
+
+        }
+        td {
+          width: 110px;
+          .whiteBg;
+          vertical-align: middle;
+          text-align: center;
+          border: 4px solid #e5ecf2;
+          padding: 13px;
+          .fa {
+            .greenT;
+            font-size: 30px;
+          }
+        }
+
+        .probioticsTd {
+          width: 180px;
+          background: #135677;
+          .whiteT;
+          .nuniB;
+          font-size: 18px;
+          text-align: left;
+        }
+        .thryveTd {
+          .blueBg;
+          .fa {
+            .whiteT;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// statisticFluid end
+
+//scientificFluid start
+.scientificFluid {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  .whiteBg;
+  .scientificContainer {
+    text-align: center;
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 13px auto;
+
+      img {
+        .borderRadious50;
+        border: 3px solid #27c5e1;
+        width: 120px;
+        height: 120px;
+      }
+
+    }
+    .descTitle {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .peopleWrap {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: 50px auto 0px auto;
+    }
+    .name {
+      .orangeLightT;
+      font-size: 25px;
+      .nuniB;
+
+    }
+    .desc {
+      font-size: 18px;
+    }
+    .peopleInner {
+      width: 40%;
+
+      margin-bottom: 50px;
+    }
+  }
+}
+
+//scientificFluid end
+
+//healthFluid start
+.healthFluid {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: url("../img/bg/madeForU.png") no-repeat center center;
+  background-size: cover;
+
+  .healthContainer {
+    .h2 {
+      .whiteT;
+      text-align: left;
+      margin-bottom: 35px;
+    }
+    p {
+      .whiteT;
+    }
+    .refer-txt{
+      font-size: 17px;
+
+  }
+
+  ul {
+    padding-left: 50px;
+    li {
+      font-size: 25px;
+      .whiteT;
+      line-height: 2em;
+      position: relative;
+
+      &:before {
+        content: '';
+        width: 35px;
+        height: 35px;
+        background: url(../img/icons/checkBox.svg);
+        position: absolute;
+        left: -60px;
+        top: 3px;
+
+      }
+
+    }
+  }
+  .price {
+    font-size: 25px;
+
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    span {
+      font-size: 35px;
+      .nuniB;
+    }
+  }
+  .form {
+  }
+    .descRefer{
+      margin-bottom: 40px;
+    }
+
+}
+
+}
+
+//healthFluid end
+
+//inTouchFluid start
+.inTouchFluid {
+  .whiteBg;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  .inTouchContainer {
+
+    .h2 {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .touchWrap {
+      display: flex;
+      justify-content: space-between;
+
+    }
+    .leftSection {
+      width: 30%;
+    }
+    .rightSection {
+      width: 68%;
+    }
+    .blogLink {
+      .nuniB;
+      font-size: 25px;
+      height: 51px;
+      .whiteBg;
+      max-width: 285px;
+      width: 100%;
+      border: 3px solid rgb(62, 75, 89);;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .darkT;
+      line-height: 0.7em;
+      margin-top: 35px;
+      .transition;
+
+      &:hover {
+        .transition;
+        .darkBgHover;
+        .whiteT;
+      }
+
+    }
+  }
+}
+
+//inTouchFluid end
+
+/*Main  End*/
+
+/*Footer Start*/
+footer {
+  .footerFluid {
+    .lightBlueBg;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    .footerContainer {
+      .logoFooter {
+        padding-bottom: 40px;
+        a {
+          text-decoration: none;
+          .whiteT;
+          font-size: 40px;
+          .nuniB;
+          padding-bottom: 40px;
+          -moz-transition: all 0.2s 0.02s ease;
+          -o-transition: all 0.2s 0.02s ease;
+          -webkit-transition: all 0.2s 0.02s ease;
+          &:hover {
+            -moz-transition: all 0.2s 0.02s ease;
+            -o-transition: all 0.2s 0.02s ease;
+            -webkit-transition: all 0.2s 0.02s ease;
+            //.darkT;
+          }
+        }
+      }
+      .footerMenu {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+        .footerWrap {
+          width: 19%;
+          width: 300px;
+          .footerInner {
+
+            display: flex;
+            flex-direction: column;
+
+            ul {
+              .titleB {
+                a {
+                  padding-top: 5px;
+                  font-size: 21px;
+                  .nuniB;
+                  line-height: 2em;
+                }
+              }
+              li {
+
+                a {
+                  text-decoration: none;
+                  .whiteT;
+                  font-size: 18px;
+                  .nuniR;
+                  line-height: 2em;
+
+                  -moz-transition: all 0.2s 0.02s ease;
+                  -o-transition: all 0.2s 0.02s ease;
+                  -webkit-transition: all 0.2s 0.02s ease;
+                  &:hover {
+                    -moz-transition: all 0.2s 0.02s ease;
+                    -o-transition: all 0.2s 0.02s ease;
+                    -webkit-transition: all 0.2s 0.02s ease;
+                    //.darkT;
+                  }
+
+                }
+              }
+            }
+
+            .social {
+              display: flex;
+              align-items: flex-start;
+              text-align: center;
+              margin-top: 15px;
+              margin-bottom: 15px;
+              .fa {
+                margin-right: 15px;
+                height: 33px;
+                width: 33px;
+                border-radius: 50%;
+                .whiteBg;
+                .lightBlueT;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 19px;
+                .transition;
+                &:hover {
+                  .orangeLightT;
+                  .transition;
+
+                }
+              }
+
+            }
+          }
+        }
+      }
+      .policy {
+        display: flex;
+        p, a {
+          font-size: 18px;
+          .nuniR;
+          line-height: 1.2em;
+          .whiteT;
+          margin-right: 40px;
+        }
+        a {
+          -moz-transition: all 0.2s 0.02s ease;
+          -o-transition: all 0.2s 0.02s ease;
+          -webkit-transition: all 0.2s 0.02s ease;
+          &:hover {
+            -moz-transition: all 0.2s 0.02s ease;
+            -o-transition: all 0.2s 0.02s ease;
+            -webkit-transition: all 0.2s 0.02s ease;
+            //.darkT;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+/*Footer End*/
+
+/* Media queries*/
+
+@media (min-width: 0px) and (max-width: 320px)  {
+
+  .h2 {
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .emailWrap {
+    justify-content: center;
+
+    .email {
+    }
+  }
+
+  .referSubmitBtn {
+    margin: 0 auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  //headerFluid start
+  .headerFluid {
+    min-height: 0;
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+    background-position: 55% 100%;
+
+    .headerContainer {
+      .h2, p {
+        .whiteT;
+        text-align: center;
+      }
+
+    }
+  }
+
+  //headerFluid end
+  .giftGluid {
+    padding-top: 15px;
+    .giftContainer {
+      .h2 {
+
+        margin-bottom: 65px;
+      }
+      .inviteWrap {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      .inviteInnner {
+        width: 90%;
+        margin-bottom: 60px;
+      }
+      .inviteInnnerLast {
+        margin-bottom: 20px;
+      }
+      .desc {
+        text-align: center;
+      }
+      svg {
+        height: 73px;
+      }
+    }
+  }
+
+  .probioticsFluid {
+    padding-top: 0;
+    padding-bottom: 270px;
+    .probioticsContianer {
+      .probioticsWrap {
+        flex-direction: column;
+
+      }
+      .probioticsInnerLeft {
+        order: 1;
+        width: 100%;
+
+      }
+      .probioticsInnerRight {
+        width: 100%;
+        order: 0;
+        margin-bottom: 30px;
+        margin-top: 0;
+        .h2 {
+          text-align: center;
+        }
+
+      }
+      .dietWrap {
+        margin-top: 30px;
+        flex-direction: column;
+        .dietInnerLeft {
+          width: 100%;
+          .h2 {
+            text-align: center;
+
+          }
+        }
+        .dietInnerRight {
+          margin-top: 20px;
+          width: 100%;
+          img {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+
+    }
+  }
+
+  .threeStepsFluid {
+    .threeStepsContainer {
+      .h2 {
+        margin-bottom: 55px;
+
+      }
+      .innerStep {
+        margin-bottom: 50px;
+        width: 100%;
+        border-color: #3e4b59;
+
+      }
+      .number {
+        border-color: #3e4b59;
+
+      }
+      .stepsWrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .desc {
+        text-align: center;
+      }
+      svg {
+        height: 70px;
+      }
+    }
+  }
+
+  .takeWordFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .takeWordContainer {
+      .h2 {
+        margin-bottom: 0;
+      }
+      .commentsWrap {
+        flex-direction: column;
+      }
+      .commentsCol {
+        width: 100%;
+        margin-bottom: 90px;
+      }
+      .commentsColLast {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .statisticFluid {
+    padding-bottom: 50px;
+    background: #e5ecf2;
+
+    .statisticContainer {
+      .buttonsWrap {
+        flex-direction: column;
+        align-items: center;
+      }
+      .probioticsBtn {
+        margin-bottom: 25px;
+      }
+      .tableWrap {
+        overflow: auto;
+        border: 0px;
+
+        table {
+          .probioticsTd {
+            font-size: 15px;
+          }
+          th {
+            font-size: 15px;
+          }
+          td {
+            .fa {
+              font-size: 24px;
+            }
+
+          }
+          .thryveTd {
+            .fa {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      .probioticsBtn {
+        font-size: 18px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .healthBtn {
+        font-size: 18px;
+      }
+
+    }
+  }
+
+  .scientificFluid {
+    padding-top: 15px;
+    padding-bottom: 0;
+    .scientificContainer {
+      .h2 {
+        margin-bottom: 5px;
+      }
+      .peopleWrap {
+        max-width: 100%;
+        flex-direction: column;
+      }
+      .peopleInner {
+        width: 100%;
+      }
+    }
+  }
+
+  .healthFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .darkBg;
+    .healthContainer {
+      .h2 {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .desc {
+        text-align: center;
+      }
+      .price {
+        margin-bottom: 40px;
+      }
+      ul li {
+        font-size: 21px;
+      }
+      .healthFormWrap {
+        text-align: center;
+      }
+      .emailWrap{
+        align-items: center;
+      }
+
+    }
+  }
+
+  .inTouchFluid {
+    padding-bottom: 50px;
+    .inTouchContainer {
+      .h2 {
+        margin-top: 0;
+        text-align: center;
+      }
+      .touchWrap {
+        flex-direction: column;
+
+      }
+      .leftSection {
+        order: 1;
+        width: 100%;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+        margin-bottom: 30px;
+      }
+      .rightSection {
+        order: 0;
+
+        width: 100%;
+
+      }
+      .blogLink {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  footer {
+    .footerFluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .footerContainer {
+        .logoFooter {
+          padding-bottom: 20px;
+        }
+        .footerMenu {
+          padding-bottom: 10px;
+          flex-wrap: wrap;
+          flex-direction: column;
+          .footerWrap {
+            width: 100%;
+            .footerInner {
+              ul {
+                .titleB {
+                  a {
+                    font-size: 17px;
+                  }
+                }
+                li {
+                  a {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .footerInner {
+              .social {
+                .fa {
+                  font-size: 15px;
+                  width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+        }
+        .policy {
+          //justify-content: space-between;
+          flex-direction: column-reverse;
+
+          p, a {
+            font-size: 14px;
+            text-align: center;
+            margin-right: 0;
+            margin-bottom: 10px;
+
+          }
+        }
+      }
+    }
+  }
+
+  .healthFluidRefer,.headerFluidRefer{
+    padding-bottom: 0;
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+  .h2 {
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .emailWrap {
+    justify-content: center;
+
+    .email {
+    }
+  }
+
+  .referSubmitBtn {
+    margin: 0 auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  //headerFluid start
+  .headerFluid {
+    min-height: 0;
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+    background-position: 55% 100%;
+
+    .headerContainer {
+      .h2, p {
+        .whiteT;
+        text-align: center;
+      }
+
+    }
+  }
+
+  //headerFluid end
+  .giftGluid {
+    padding-top: 15px;
+    .giftContainer {
+      .h2 {
+
+        margin-bottom: 65px;
+      }
+      .inviteWrap {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      .inviteInnner {
+        width: 90%;
+        margin-bottom: 60px;
+      }
+      .inviteInnnerLast {
+        margin-bottom: 20px;
+      }
+      .desc {
+        text-align: center;
+      }
+      svg {
+        height: 73px;
+      }
+    }
+  }
+
+  .probioticsFluid {
+    padding-top: 0;
+    padding-bottom: 270px;
+    .probioticsContianer {
+      .probioticsWrap {
+        flex-direction: column;
+
+      }
+      .probioticsInnerLeft {
+        order: 1;
+        width: 100%;
+
+      }
+      .probioticsInnerRight {
+        width: 100%;
+        order: 0;
+        margin-bottom: 30px;
+        margin-top: 0;
+        .h2 {
+          text-align: center;
+        }
+
+      }
+      .dietWrap {
+        margin-top: 30px;
+        flex-direction: column;
+        .dietInnerLeft {
+          width: 100%;
+          .h2 {
+            text-align: center;
+
+          }
+        }
+        .dietInnerRight {
+          margin-top: 20px;
+          width: 100%;
+          img {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+
+    }
+  }
+
+  .threeStepsFluid {
+    .threeStepsContainer {
+      .h2 {
+        margin-bottom: 55px;
+
+      }
+      .innerStep {
+        margin-bottom: 50px;
+        width: 100%;
+        border-color: #3e4b59;
+
+      }
+      .number {
+        border-color: #3e4b59;
+
+      }
+      .stepsWrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .desc {
+        text-align: center;
+      }
+      svg {
+        height: 70px;
+      }
+    }
+  }
+
+  .takeWordFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .takeWordContainer {
+      .h2 {
+        margin-bottom: 0;
+      }
+      .commentsWrap {
+        flex-direction: column;
+      }
+      .commentsCol {
+        width: 100%;
+        margin-bottom: 90px;
+      }
+      .commentsColLast {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .statisticFluid {
+    padding-bottom: 50px;
+    background: #e5ecf2;
+
+    .statisticContainer {
+      .buttonsWrap {
+        flex-direction: column;
+        align-items: center;
+      }
+      .probioticsBtn {
+        margin-bottom: 25px;
+      }
+      .tableWrap {
+        overflow: auto;
+        border: 0px;
+
+        table {
+          .probioticsTd {
+            font-size: 15px;
+          }
+          th {
+            font-size: 15px;
+          }
+          td {
+            .fa {
+              font-size: 24px;
+            }
+
+          }
+          .thryveTd {
+            .fa {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      .probioticsBtn {
+        font-size: 18px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .healthBtn {
+        font-size: 18px;
+      }
+
+    }
+  }
+
+  .scientificFluid {
+    padding-top: 15px;
+    padding-bottom: 0;
+    .scientificContainer {
+      .h2 {
+        margin-bottom: 5px;
+      }
+      .peopleWrap {
+        max-width: 100%;
+        flex-direction: column;
+      }
+      .peopleInner {
+        width: 100%;
+      }
+    }
+  }
+
+  .healthFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .darkBg;
+    .healthContainer {
+      .h2 {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .desc {
+        text-align: center;
+      }
+      .price {
+        margin-bottom: 40px;
+      }
+      ul li {
+        font-size: 21px;
+      }
+      .healthFormWrap {
+        text-align: center;
+      }
+      .emailWrap{
+        align-items: center;
+      }
+
+    }
+  }
+
+  .inTouchFluid {
+    padding-bottom: 50px;
+    .inTouchContainer {
+      .h2 {
+        margin-top: 0;
+        text-align: center;
+      }
+      .touchWrap {
+        flex-direction: column;
+
+      }
+      .leftSection {
+        order: 1;
+        width: 100%;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+        margin-bottom: 30px;
+      }
+      .rightSection {
+        order: 0;
+
+        width: 100%;
+
+      }
+      .blogLink {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  footer {
+    .footerFluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .footerContainer {
+        .logoFooter {
+          padding-bottom: 20px;
+        }
+        .footerMenu {
+          padding-bottom: 10px;
+          flex-wrap: wrap;
+          flex-direction: column;
+          .footerWrap {
+            width: 100%;
+            .footerInner {
+              ul {
+                .titleB {
+                  a {
+                    font-size: 17px;
+                  }
+                }
+                li {
+                  a {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .footerInner {
+              .social {
+                .fa {
+                  font-size: 15px;
+                  width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+        }
+        .policy {
+          //justify-content: space-between;
+          flex-direction: column-reverse;
+
+          p, a {
+            font-size: 14px;
+            text-align: center;
+            margin-right: 0;
+            margin-bottom: 10px;
+
+          }
+        }
+      }
+    }
+  }
+
+  .healthFluidRefer,.headerFluidRefer{
+    padding-bottom: 0;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .h2 {
+    font-size: 39px;
+  }
+
+  p {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .emailWrap {
+    justify-content: center;
+
+    .email {
+    }
+  }
+
+  .referSubmitBtn {
+    margin: 0 auto;
+  }
+
+  //headerFluid start
+  .headerFluid {
+    min-height: 0;
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+    background-position: 80% 100%;
+
+    .headerContainer {
+      .h2, p {
+        .whiteT;
+        text-align: left;
+      }
+
+    }
+  }
+
+  //headerFluid end
+  .giftGluid {
+    padding-top: 15px;
+    .giftContainer {
+      .h2 {
+
+        margin-bottom: 65px;
+      }
+      .inviteWrap {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+      }
+      .inviteInnner {
+        width: 44%;
+        margin-bottom: 60px;
+      }
+      .inviteInnnerLast {
+        margin-bottom: 20px;
+      }
+      .desc {
+        text-align: center;
+      }
+      svg {
+        height: 73px;
+      }
+    }
+  }
+
+  .probioticsFluid {
+    padding-top: 0px;
+    padding-bottom: 270px;
+    .probioticsContianer {
+      .probioticsWrap {
+        flex-direction: column;
+
+      }
+      .probioticsInnerLeft {
+        order: 1;
+        width: 100%;
+
+      }
+      .probioticsInnerRight {
+        width: 100%;
+        order: 0;
+        margin-bottom: 30px;
+        margin-top: 0;
+        .h2 {
+          text-align: center;
+        }
+
+      }
+      .dietWrap {
+        margin-top: 30px;
+        flex-direction: column;
+        .dietInnerLeft {
+          width: 100%;
+          .h2 {
+            text-align: center;
+
+          }
+        }
+        .dietInnerRight {
+          margin-top: 20px;
+          width: 100%;
+          img {
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+
+    }
+  }
+
+  .threeStepsFluid {
+    .threeStepsContainer {
+      .h2 {
+        margin-bottom: 55px;
+
+      }
+      .innerStep {
+        margin-bottom: 50px;
+        width: 44%;
+        border-color: #3e4b59;
+
+      }
+      .number {
+        border-color: #3e4b59;
+
+      }
+      .stepsWrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+      }
+      .desc {
+        text-align: center;
+      }
+      svg {
+        height: 70px;
+      }
+    }
+  }
+
+  .takeWordFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .takeWordContainer {
+      .h2 {
+        margin-bottom: 0;
+      }
+      .commentsWrap {
+        flex-direction: column;
+      }
+      .commentsCol {
+        width: 100%;
+        margin-bottom: 90px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .statisticFluid {
+    padding-bottom: 50px;
+    background: #e5ecf2;
+
+    .statisticContainer {
+      .tableWrap {
+        overflow: auto;
+        border: 0px;
+
+        table {
+          .probioticsTd {
+            font-size: 15px;
+          }
+          th {
+            font-size: 15px;
+          }
+          td {
+            .fa {
+              font-size: 24px;
+            }
+
+          }
+          .thryveTd {
+            .fa {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      .probioticsBtn {
+        font-size: 18px;
+      }
+      .healthBtn {
+        font-size: 18px;
+      }
+
+    }
+  }
+
+  .scientificFluid {
+    padding-top: 15px;
+    padding-bottom: 0;
+    .scientificContainer {
+      .h2 {
+        margin-bottom: 5px;
+      }
+      .peopleWrap {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .healthFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .darkBg;
+    .healthContainer {
+      .h2 {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .desc {
+        text-align: center;
+      }
+      .price {
+        margin-bottom: 40px;
+      }
+      .healthFormWrap {
+        text-align: center;
+      }
+      .emailWrap{
+        align-items: center;
+      }
+
+    }
+  }
+
+  .inTouchFluid {
+    padding-bottom: 50px;
+    .inTouchContainer {
+      .h2 {
+        margin-top: 0;
+        text-align: center;
+      }
+      .touchWrap {
+        flex-direction: column;
+
+      }
+      .leftSection {
+        order: 1;
+        width: 100%;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+        margin-bottom: 30px;
+      }
+      .rightSection {
+        order: 0;
+
+        width: 100%;
+
+      }
+      .blogLink {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  footer {
+    .footerFluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .footerContainer {
+        .logoFooter {
+          padding-bottom: 20px;
+        }
+        .footerMenu {
+          padding-bottom: 10px;
+          flex-wrap: wrap;
+          .footerWrap {
+            width: 34%;
+            .footerInner {
+              ul {
+                .titleB {
+                  a {
+                    font-size: 17px;
+                  }
+                }
+                li {
+                  a {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .footerInner {
+              .social {
+                .fa {
+                  font-size: 15px;
+                  width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+        }
+        .policy {
+          justify-content: space-between;
+          a {
+            margin-right: 0;
+
+          }
+          p, a {
+            font-size: 14px;
+
+          }
+        }
+      }
+    }
+  }
+  .healthFluidRefer,.headerFluidRefer{
+    padding-bottom: 0;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .emailWrap {
+    justify-content: center;
+
+    .email {
+    }
+  }
+
+  .referSubmitBtn {
+    margin: 0 auto;
+  }
+
+  //headerFluid start
+  .headerFluid {
+    min-height: 0;
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+    background-position: 100% 100%;
+
+    .headerContainer {
+      .h2, p {
+        .whiteT;
+      }
+    }
+  }
+
+  //headerFluid end
+  .giftGluid {
+    padding-top: 15px;
+    .giftContainer {
+      .h2 {
+
+        margin-bottom: 65px;
+      }
+      .inviteWrap {
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+      }
+      .inviteInnner {
+        width: 47%;
+        margin-bottom: 60px;
+      }
+      .desc {
+        text-align: center;
+      }
+    }
+  }
+
+  .probioticsFluid {
+    padding-top: 50px;
+    padding-bottom: 270px;
+  }
+
+  .threeStepsFluid {
+    .threeStepsContainer {
+      .h2 {
+        margin-bottom: 55px;
+
+      }
+      .innerStep {
+        margin-bottom: 50px;
+        width: 47%;
+        border-color: #3e4b59;
+
+      }
+      .number {
+        border-color: #3e4b59;
+
+      }
+      .stepsWrap {
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .desc {
+        text-align: center;
+      }
+    }
+  }
+
+  .takeWordFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .takeWordContainer {
+      .h2 {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .statisticFluid {
+    padding-bottom: 50px;
+
+    .statisticContainer {
+      .tableWrap {
+        table {
+          .probioticsTd {
+            font-size: 15px;
+          }
+          th {
+            font-size: 15px;
+          }
+          td {
+            .fa {
+              font-size: 24px;
+            }
+
+          }
+          .thryveTd {
+            .fa {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .scientificFluid {
+    padding-top: 15px;
+    padding-bottom: 0;
+    .scientificContainer {
+      .h2 {
+        margin-bottom: 5px;
+      }
+      .peopleWrap {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .healthFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .darkBg;
+    .healthContainer {
+      .h2 {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .desc {
+        text-align: center;
+      }
+      .price {
+        margin-bottom: 40px;
+      }
+
+      .healthFormWrap {
+        text-align: center;
+      }
+      .emailWrap{
+        align-items: center;
+      }
+    }
+  }
+
+  .inTouchFluid {
+    padding-bottom: 50px;
+    .inTouchContainer {
+      .h2 {
+        margin-top: 0;
+      }
+      .leftSection {
+        width: 29%;
+      }
+      .rightSection {
+        width: 66%;
+      }
+
+    }
+  }
+
+  footer {
+    .footerFluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .footerContainer {
+        .logoFooter {
+          padding-bottom: 20px;
+        }
+        .footerMenu {
+          padding-bottom: 10px;
+          .footerWrap {
+            width: 138px;
+            .footerInner {
+              ul {
+                .titleB {
+                  a {
+                    font-size: 17px;
+                  }
+                }
+                li {
+                  a {
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .footerInner {
+              .social {
+                .fa {
+                  font-size: 15px;
+                  width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+        }
+        .policy {
+          p, a {
+            font-size: 14px;
+
+          }
+        }
+      }
+    }
+  }
+
+
+  .healthFluidRefer,.headerFluidRefer{
+    padding-bottom: 0;
+  }
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  //headerFluid start
+  .headerFluid {
+    min-height: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-position: 25% 100%;
+  }
+
+  //headerFluid end
+  .giftGluid {
+    padding-top: 15px;
+    .giftContainer {
+      .h2 {
+
+        margin-bottom: 65px;
+      }
+      .inviteWrap {
+        margin-bottom: 50px;
+
+      }
+
+    }
+  }
+
+  .probioticsFluid {
+    padding-top: 50px;
+    padding-bottom: 270px;
+  }
+
+  .threeStepsFluid {
+    .threeStepsContainer {
+      .h2 {
+        margin-bottom: 55px;
+
+      }
+      .innerStep {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .takeWordFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .takeWordContainer {
+      .h2 {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .statisticFluid {
+    padding-bottom: 50px;
+  }
+
+  .scientificFluid {
+    padding-top: 15px;
+    padding-bottom: 0;
+    .scientificContainer {
+      .h2 {
+        margin-bottom: 5px;
+      }
+      .peopleWrap {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .healthFluid {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    .healthContainer {
+      .h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .inTouchFluid {
+    padding-bottom: 50px;
+    .inTouchContainer {
+      .leftSection {
+        width: 29%;
+      }
+      .rightSection {
+        width: 66%;
+      }
+    }
+  }
+
+  footer {
+    .footerFluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .footerContainer {
+        .footerMenu {
+          padding-bottom: 40px;
+        }
+      }
+    }
+  }
+  .healthFluidRefer,.headerFluidRefer{
+    padding-bottom: 0;
+  }
+
+}
+
